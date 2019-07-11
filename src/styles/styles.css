@@ -1,0 +1,21 @@
+@import 'variables.css';
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+.theme--dark {
+    background-color: var(--dark-bg);
+    color: var(--white-text);
+}
+
+.theme--light {
+    background-color: var(--light-bg);
+    color: var(--black-text);
+}
