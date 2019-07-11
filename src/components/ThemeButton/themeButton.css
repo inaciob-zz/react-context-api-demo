@@ -1,0 +1,21 @@
+@import '../../styles/variables.css';
+
+.btn {
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    outline: none;
+    padding: 1rem 2rem;
+}
+
+.theme--dark .btn {
+    background-color: var(--dark-btn-bg);
+    border-color: var(--dark-btn-bg);
+    color: var(--white-text);
+}
+
+.theme--light .btn {
+    background-color: var(--light-btn-bg);
+    border-color: var(--light-btn-bg);
+    color: var(--black-text);
+}
