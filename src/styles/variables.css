@@ -1,0 +1,9 @@
+/* Custom variable declarations */
+:root {
+    --dark-bg: midnightblue;
+    --dark-btn-bg: #222222;
+    --white-text: rgba(255, 255, 255, 0.9);
+    --light-bg: #eeeeee;
+    --light-btn-bg: #fff;
+    --black-text: rgba(0, 0, 0, 0.9);
+}
